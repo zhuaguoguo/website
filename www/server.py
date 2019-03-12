@@ -16,8 +16,9 @@ url=[
 ]
 
 settings=dict(
+    cookie_secret='MKrZSaIMREmjZnHskwmqi0k06xrjs0QQg48xhOYAW2o=',
     template_path=os.path.join(os.path.dirname(__file__),'templates'),
-    static_path=os.path.join(os.path.dirname(__file__),'statics')
+    # static_path=os.path.join(os.path.dirname(__file__),'static')
 )
 
 application=tornado.web.Application(
