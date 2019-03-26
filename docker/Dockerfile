@@ -8,5 +8,6 @@ WORKDIR /www
 RUN ln -sf /usr/share/zoneinfo/Asia/Shanghai  /etc/localtime
 RUN pip install -r requirements.txt
 
+
 EXPOSE 8880
 CMD ["python", "-m", "app.api"]
