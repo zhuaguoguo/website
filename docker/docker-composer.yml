@@ -1,0 +1,9 @@
+version: '3.3'
+services:
+  docker-python-demo:
+    build:
+      context: .
+    ports:
+      - '8880:8880'
+    network_mode: host
+    container_name: web
